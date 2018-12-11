@@ -83,8 +83,12 @@ WSGI_APPLICATION = 'newspaper_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'newspaperdb',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -137,3 +141,8 @@ EMAIL_HOST_PASSWORD = 'SG.vYXcmwfQSW2cClqcZ2e43w.HQ3ZvgzxMFnWK_BdoZcEgameqTyR02C
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'America/New_York'
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass

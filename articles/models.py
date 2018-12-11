@@ -14,7 +14,6 @@ class Article(models.Model):
 
 
     date = models.DateTimeField(auto_now_add=True)
-
     author = models.ForeignKey(
 
             get_user_model(),

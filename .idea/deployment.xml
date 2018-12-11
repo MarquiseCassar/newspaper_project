@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="marquise-DO" />
+  <component name="PublishConfigData" serverName="MA-DO" showNewOnTargetInSync="false">
+    <serverData>
+      <paths name="MA-DO">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/newspaper_project" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/newspaper_project/newspaper_project/local_settings.py" />
+            <excludedPath path="/newspaper_project/newspaper_project.sock" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="09521815-4ea9-4825-959e-deffb6e31fe7" name="marquise-DO" url="http://68.183.109.117">
+      <webServer id="ba71961b-85c9-4949-b79e-93f00262412d" name="MA-DO" url="http://68.183.109.117">
         <fileTransfer host="68.183.109.117" port="22" rootFolder="/home/cs250student" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
